@@ -3,12 +3,12 @@ name: Upstream Sync
 permissions:
   contents: write
 
-on:
-  schedule:
-    - cron: "0 0 * * *" # every day
-  workflow_dispatch:
-  watch:
-    types: started
+#on:
+  #schedule:
+    #- cron: "0 0 * * *" # every day
+  #workflow_dispatch:
+  #watch:
+    #types: started
 
 jobs:
   sync_latest_from_upstream:
